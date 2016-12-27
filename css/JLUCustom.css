@@ -1,0 +1,241 @@
+body {
+}
+
+.header,
+.marketing,
+.footer {
+
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: middle;
+}
+/* Make the masthead heading the same height as the navigation */
+.header>h3 {
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+
+
+/* Custom page footer */
+.footer {
+  text-align: center;
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 100px;
+}
+
+
+.logo1 {
+  color: #DE6E4B;
+  font-size: 35px;
+
+}
+.logo2 {
+  color: #7FD1B9;
+  font-size: 35px;
+
+}
+
+
+#bg {
+  background-image: url("../imgs/IMG_0929.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  padding: 11%;
+  height: 20%;
+  text-align: center;
+  color: white;
+  box-shadow: inset 0 1em 2em -1em #222
+
+}
+
+#bg>h1{
+  font-size: 6em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 0 0 30px #111;
+  font-family: "Avenir Next";
+}
+
+#bg2 {
+  background-image: url("../imgs/colorshapes.jpg");
+  background-position: center;
+
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 512px;
+  z-index: -2;
+}
+.signin {
+  font-family: "Avenir Next";
+  vertical-align: middle;
+  margin-top: -29px;
+
+}
+.signin2 {
+  font-family: "Avenir Next";
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.container2 {
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+
+
+}
+
+pills>li.active>a:hover {
+}
+.numberCircle {
+  font-size: 30px;
+  color: #7FD1B9;
+}
+.textAlign {
+  padding-top: 8px;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+.btn-default {
+  color: white;
+  background-color: #DE6E4B;
+  border-color: white;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: white;
+  background-color: #DE6E4B;
+  border-color: white;
+}
+.btn-default:hover {
+  color: white;
+  background-color: #e48b6e;
+  border-color: white;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: white;
+  background-color: #b66f58;
+  border-color: white;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: white;
+  background-color: #b66f58;
+  border-color: white;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #DE6E4B;
+  border-color: #8c8c8c;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.home-heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+/* Customize container */
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing>p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.blurback {
+  background-image: url("../imgs/blurred2.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20%;
+  padding-bottom: 50%;
+  box-shadow: inset 0 1em 2em -1em #222;
+  z-index: -2;
+
+}
+
+.signinbox {
+  background: rgba(127,209,185,80);
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 990px) {
+  .form-group {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .container {
+    text-align: center;
+  }
+  #bg>h1{
+    font-size: 400%;
+  }
+  .textAlign {
+  font-size: 20px;
+  text-align: center;
+}
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1000px;
+
+  }
+  .blurback {
+  padding-top: 10%;
+
+  }
+}

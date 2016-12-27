@@ -1,0 +1,75 @@
+<!doctype html>
+<head>
+ 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+	<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+
+	<style>
+	
+	.error{
+		display: none;
+		margin-left: 10px;
+	}		
+
+	.error_show{
+		color: red;
+		margin-left: 10px;
+	}
+	
+	input.invalid, textarea.invalid{
+		border: 2px solid red;
+	}
+
+	input.valid, textarea.valid{
+		border: 2px solid green;	
+	}
+	</style>
+	
+</head>
+
+<body>
+  
+  <div id="main">
+  
+	
+	
+	<h1>Sign up!</h1>
+	
+	<form id="signup">
+			<p>First name: <input id="first_name" type="text"></p>
+			<span class="error">This field is required</span>
+			
+			<p>Last name: <input id="last_name" type="text"></p>
+			<span class="error">This field is required</span>
+			
+			<p>Email: <input id="user_email" type="text"></p>
+			<span class="error">This field is required</span>
+			
+			<p>Password: <input id="user_password" type="password"></p>
+			
+			<p> <input id="signup_submit" type="submit"></p>
+			
+	</form>
+	
+	
+	
+	<form id="login">
+		<p>Username (Your email)<input id="login_username" type="text"></p>
+		<p>Password<input id="login_password" type="password"</p>
+		
+		<p><input id="login_submit" type="submit"></p>
+		
+	</form>
+	
+	
+	
+	
+	
+	<input id="logout" type="submit">
+	
+	
+<script src="C:\Users\Schuyler\Desktop\helpout.js"></script>
+</body>
+
+</html>

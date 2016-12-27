@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Sign in</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+
+  <body onload="getAllEvents('tiles'); checkSession()">
+
+    <div id="toolbar" class="container">
+      <nav class="navbar navbar-transparent">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+          <span class="logo1 link">Help</span><span class="logo2">Out!</span></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" style="">Browse Events</a></li>
+            <li><a href="events.html" style="">My Events</a></li>
+            <li><a id="logout" href="index.html">Sign Out</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+    </nav>
+    </div>
+
+    <div id="fade" class="row">
+      <div class="col-xs-offset-1 col-xs-2">
+        <h1 id="wild">Do something wild.</h1>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row" style="@grid-columns: 12;" id="tiles">
+          <div class="col-sm-4 cards">
+            <div class="tile" id="butt">
+              <img src="imgs/thumbs/0-1.jpg" class="thumb">
+              <div class="title"><h3>Title</h3></div>
+              <div class="tag">Tag</div>
+              <div class="address">Address</div>
+              <div class="time_span">9:00 - 4:00</div>
+              <div class="date">9/5/2017</div>
+              <div class="text-center"><button class="btn btn-default btn-small">Join</button></div>
+            </div>
+          </div>
+          <div class="col-sm-4 cards">
+            <div class="tile">
+              <img src="imgs/thumbs/0-2.jpg" class="thumb">
+              <div class="title"><h3>Title</h3></div>
+              <div class="tag">Tag</div>
+              <div class="address">Address</div>
+              <div class="time_span">9:00 - 4:00</div>
+              <div class="date">9/5/2017</div>
+              <div class="text-center"><button class="btn btn-default btn-small">Join</button></div>
+            </div>
+          </div>
+          <div class="col-sm-4 cards">
+            <div class="tile">
+              <img src="imgs/thumbs/0-3.jpg" class="thumb">
+              <div class="title"><h3>Title</h3></div>
+              <div class="tag">Tag</div>
+              <div class="address">Address</div>
+              <div class="time_span">9:00 - 4:00</div>
+              <div class="date">9/5/2017</div>
+              <div class="text-center"><button class="btn btn-default btn-small">Join</button></div>
+            </div>
+          </div>
+          <div class="col-sm-4 cards">
+            <div class="tile">
+              <img src="imgs/thumbs/0-4.jpg" class="thumb">
+              <div class="title"><h3>Title</h3></div>
+              <div class="tag">Tag</div>
+              <div class="address">Address</div>
+              <div class="time_span">9:00 - 4:00</div>
+              <div class="date">9/5/2017</div>
+              <div class="text-center"><button class="btn btn-default btn-small">Join</button></div>
+            </div>
+          </div>
+          <div class="col-sm-4 cards">
+            <div class="tile">
+              <img src="imgs/thumbs/0-5.jpg" class="thumb">
+              <div class="title"><h3>Title</h3></div>
+              <div class="tag">Tag</div>
+              <div class="address">Address</div>
+              <div class="time_span">9:00 - 4:00</div>
+              <div class="date">9/5/2017</div>
+              <div class="text-center"><button class="btn btn-default btn-small">Join</button></div>
+            </div>
+          </div>
+          <div class="col-sm-4 cards">
+            <div class="tile">
+              <img src="imgs/thumbs/0-6.jpg" class="thumb">
+              <div class="title"><h3>Title</h3></div>
+              <div class="tag">Tag</div>
+              <div class="address">Address</div>
+              <div class="time_span">9:00 - 4:00</div>
+              <div class="date">9/5/2017</div>
+              <div class="text-center"><button class="btn btn-default btn-small">Join</button></div>
+            </div>
+          </div>
+
+        </div>
+
+
+      <footer class="footer">
+        <p>&copy; HelpOut! 2015</p>
+      </footer>
+      </span>
+    </div> <!-- /container -->
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <script src="js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/helpout.js"></script>
+  </body>
+</html>

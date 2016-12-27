@@ -1,0 +1,88 @@
+
+#new-event {
+    margin: 30px;
+    padding: 20px;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px
+}
+
+.error{
+    display: none;
+    margin-left: 10px;
+}		
+
+.error_show{
+    color: red;
+    margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;	
+}
+
+#showAddEventDiv {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    float: none;
+    font-size: xx-large;
+    max-width: 12em;
+    margin-top: 5%;
+    min-width: 7em;
+}
+#addEventdiv {
+    opacity: 0;
+}
+
+#myEventTiles {
+    position: absolute;
+    top: 20%;
+}
+
+.col-md-5 {
+/*    width: 50%;*/
+    padding: 0;
+}
+@media (min-width: 990px) {
+    .col-md-5 {
+        width: 50%;
+    }
+}
+
+.input-group {
+    
+}
+
+/*
+.date {
+    padding-left: 0;
+}
+*/
+#date-time-test {
+    width:100%;
+}
+
+.col-md-5 {
+    
+}
+
+#datetimepicker6 {
+    padding-left: 0;
+}
+
+#datetimepicker7 {
+    padding-left: 0;
+}
+
+.form-inline {
+    width:100%;
+    margin: 15px;
+}
